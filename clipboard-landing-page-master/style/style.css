@@ -20,19 +20,38 @@
   align-items: center;
 }
 
-.h1-top {
+.start-site {
+  min-width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.start-site .h1-top {
   text-align: center;
   font-weight: 600;
   font-family: "Bai Jamjuree", sans-serif;
   text-shadow: 6px red;
 }
-
-.p-text {
+.start-site .p-text1 {
+  text-align: center;
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 400;
-  text-align: center;
   font-size: 18px;
   color: hsl(201deg, 11%, 66%);
+}
+
+.middle-site {
+  min-width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  box-shadow: 4px black;
+}
+.middle-site .buttons {
+  border-radius: 20px;
+  width: 200px;
+  height: 45px;
 }
 
 /*# sourceMappingURL=style.css.map */

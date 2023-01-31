@@ -30,6 +30,13 @@ $GrayishBlue: hsl(201, 11%, 66%);
     }
    
 }
+.start-site{
+min-width: 100vw;
+height: 20vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
 
 .h1-top{
     text-align: center;
@@ -37,10 +44,26 @@ $GrayishBlue: hsl(201, 11%, 66%);
     font-family: $fonte1;
     text-shadow: 6px red;
 }
-.p-text{
+
+.p-text1{
+    text-align: center;
     font-family: $fonte1;
     font-weight: 400;
-    text-align: center;
     font-size: 18px;
     color: $GrayishBlue;
+    
+}}
+
+.middle-site{
+    min-width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px black;
+   .buttons{
+    border-radius: 20px;
+    width: 200px;
+    height: 45px;
+    
+   }
 }
