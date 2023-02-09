@@ -242,4 +242,10 @@
   gap: 30px;
 }
 
+@media (max-width: 1323px) {
+  .footer-content {
+    background-color: aqua;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
