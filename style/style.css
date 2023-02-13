@@ -92,7 +92,7 @@
   background-image: url("../../clipboard-landing-page-master/images/image-computer.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .texts-notebook {
@@ -243,13 +243,44 @@
 }
 
 @media screen and (max-width: 763px) {
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 68vh;
+    min-width: 100vw;
+    background-image: url("../../../clipboard-landing-page-master/images/bg-header-mobile.png");
+  }
+  .header-content .logocima {
+    height: 30vh;
+  }
+  .buttons-middle {
+    display: flex;
+    flex-direction: column;
+  }
+  .middle-site .buttons {
+    border-radius: 20px;
+    width: 290px;
+    height: 50px;
+    margin-bottom: 10px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
   .footer-content {
     background-color: aqua;
   }
 }
 @media screen and (min-width: 763px) and (max-width: 1023px) {
+  .header-section {
+    background-image: url("../../images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1023px) {
   .footer-content {
-    background-color: red;
+    display: flex;
   }
 }
 

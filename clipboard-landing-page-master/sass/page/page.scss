@@ -110,7 +110,7 @@ flex-direction: column;
     background-image: url("../../clipboard-landing-page-master/images/image-computer.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
 }
 .texts-notebook{
     font-family: $fonte1;

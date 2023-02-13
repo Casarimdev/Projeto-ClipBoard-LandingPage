@@ -1,20 +1,56 @@
 
 ///RESPONSIVE-SMARTPHONE
 @media screen and (max-width:763px){
+    .header-content{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 68vh;
+        min-width: 100vw;
+        background-image: url('../../../clipboard-landing-page-master/images/bg-header-mobile.png');
+        
+        
+        .logocima{
+            height: 30vh;
+            
+        }
+    }
+    
+    .buttons-middle{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .middle-site .buttons{
+        border-radius: 20px;
+        width: 290px;
+        height: 50px;
+        margin-bottom: 10px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+
+            
+        
     .footer-content{
         background-color: aqua;
     } 
 }   
 ///RESPONSIVE TABLET
 @media screen and (min-width:763px) and (max-width:1023px){
-    .footer-content{
-        background-color: red;
-    } 
+   .header-section{
+    background-image: url('../../images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   }
 }
 
 ///RESPONSIVE DESKTOP
 @media screen and (min-width:1023px) {
-    .footer-content{
-        
-    } 
+   .footer-content{
+    display: flex;
+   }
 }   
