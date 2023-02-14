@@ -40,7 +40,7 @@
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: hsl(201deg, 11%, 66%);
+  color: hsl(201, 11%, 66%);
 }
 
 .middle-site {
@@ -75,7 +75,7 @@
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: hsl(201deg, 11%, 66%);
+  color: hsl(201, 11%, 66%);
 }
 
 .container2 {
@@ -111,7 +111,7 @@
 }
 
 .p-midle {
-  color: hsl(201deg, 11%, 66%);
+  color: hsl(201, 11%, 66%);
   text-align: center;
 }
 
@@ -137,7 +137,7 @@
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: hsl(201deg, 11%, 66%);
+  color: hsl(201, 11%, 66%);
   overflow-y: hidden;
 }
 .container-clipboard .img-clipboard {
@@ -166,7 +166,7 @@
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: hsl(201deg, 11%, 66%);
+  color: hsl(201, 11%, 66%);
   overflow-y: hidden;
 }
 
@@ -206,7 +206,7 @@
 }
 
 .footer-content {
-  background-color: hsl(201deg, 11%, 66%);
+  background-color: hsl(201, 11%, 66%);
   min-width: 100vw;
   height: 15vh;
   display: flex;
@@ -219,7 +219,7 @@
   align-items: center;
 }
 .footer-content .p-footer {
-  font-family: hsl(210deg, 10%, 33%);
+  font-family: hsl(210, 10%, 33%);
   font-weight: 400;
   font-size: 15px;
 }
