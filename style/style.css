@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 * {
   margin: 0;
@@ -146,7 +145,7 @@
   overflow-y: hidden;
   align-items: center;
   width: 50vw;
-  background-image: url("C:஬kup_PC\estudos-OneBitCodeProjetosProjeto-ClipBoard-LandingPage\clipboard-landing-page-masterimagesimage-devices.png");
+  background-image: url("https://res.cloudinary.com/dowrygm9b/image/upload/v1575323876/clipboard%20landing%20page/image-devices_sjhxtc.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
