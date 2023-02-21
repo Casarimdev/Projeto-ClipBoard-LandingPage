@@ -1,6 +1,11 @@
 
 ///RESPONSIVE-SMARTPHONE
 @media screen and (max-width:763px){
+
+    *{
+        overflow-x: hidden;
+        
+    }
     .header-content{
         display: flex;
         justify-content: center;
@@ -13,9 +18,26 @@
         .logocima{
             height: 30vh;
             
+            
         }
     }
     
+    .start-site {
+        overflow-y: hidden;
+        .p-text1 {
+        font-size: 11px;
+        height: auto;
+        width: auto;
+        padding-bottom: 3vh;
+        overflow-y: hidden;
+        overflow-x: hidden;}
+
+         .h1-top{
+            font-size: 18px;
+            padding-bottom: 3vh;
+         }
+    }
+
     .buttons-middle{
         display: flex;
         flex-direction: column;
@@ -32,11 +54,78 @@
     }
     
 
+    .meio{
+
+        .h1-meio{
+            font-size: 18px;
+            padding-top: 3vh;
+        }
+
+        .pmeio{
+            font-size: 11px;
             
+        }
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 80vh;
+        overflow-y: hidden;
+
+        .h5-midle{
+            font-size: 14px;
+        }
+
+        .p-midle{
+            font-size: 11px;
+            overflow-y: hidden;
+            height: 15vh;
+        }
         
-    .footer-content{
-        background-color: aqua;
-    } 
+        .texts-notebook{
+            height: auto;
+            align-items: center;
+            padding-top: 9vh;
+            margin-right: 12vh;
+            
+        }
+
+        .one-midle{
+            height: 50vh;
+            overflow-y: hidden;
+            padding-bottom: 12vh;
+        }
+
+        .secon-midle{
+            height: 50vh;
+            overflow-y: hidden;
+            padding-bottom: 9vh;
+        }
+        .third-midle{
+            height: 50vh;
+            overflow-y: hidden;
+            
+        }
+    }
+
+    .container-clipboard{
+        .h1-meio{
+            font-size: 18px;
+        }
+
+        .pmeio{
+            font-size: 11px
+        }
+    }
+    
+
+    .container-clipboard{
+        height: 70vh;
+    }
+
 }   
 ///RESPONSIVE TABLET
 @media screen and (min-width:763px) and (max-width:1023px){

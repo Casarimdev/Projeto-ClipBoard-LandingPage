@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 * {
   margin: 0;
@@ -144,7 +145,11 @@
   height: 80vh;
   overflow-y: hidden;
   align-items: center;
-  padding-top: 8vh;
+  width: 50vw;
+  background-image: url("C:஬kup_PC\estudos-OneBitCodeProjetosProjeto-ClipBoard-LandingPage\clipboard-landing-page-masterimagesimage-devices.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
 
 .h1-down {
@@ -243,6 +248,9 @@
 }
 
 @media screen and (max-width: 763px) {
+  * {
+    overflow-x: hidden;
+  }
   .header-content {
     display: flex;
     justify-content: center;
@@ -253,6 +261,21 @@
   }
   .header-content .logocima {
     height: 30vh;
+  }
+  .start-site {
+    overflow-y: hidden;
+  }
+  .start-site .p-text1 {
+    font-size: 11px;
+    height: auto;
+    width: auto;
+    padding-bottom: 3vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .start-site .h1-top {
+    font-size: 18px;
+    padding-bottom: 3vh;
   }
   .buttons-middle {
     display: flex;
@@ -266,8 +289,57 @@
     overflow-y: hidden;
     overflow-x: hidden;
   }
-  .footer-content {
-    background-color: aqua;
+  .meio .h1-meio {
+    font-size: 18px;
+    padding-top: 3vh;
+  }
+  .meio .pmeio {
+    font-size: 11px;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    overflow-y: hidden;
+  }
+  .container2 .h5-midle {
+    font-size: 14px;
+  }
+  .container2 .p-midle {
+    font-size: 11px;
+    overflow-y: hidden;
+    height: 15vh;
+  }
+  .container2 .texts-notebook {
+    height: auto;
+    align-items: center;
+    padding-top: 9vh;
+    margin-right: 12vh;
+  }
+  .container2 .one-midle {
+    height: 50vh;
+    overflow-y: hidden;
+    padding-bottom: 12vh;
+  }
+  .container2 .secon-midle {
+    height: 50vh;
+    overflow-y: hidden;
+    padding-bottom: 9vh;
+  }
+  .container2 .third-midle {
+    height: 50vh;
+    overflow-y: hidden;
+  }
+  .container-clipboard .h1-meio {
+    font-size: 18px;
+  }
+  .container-clipboard .pmeio {
+    font-size: 11px;
+  }
+  .container-clipboard {
+    height: 70vh;
   }
 }
 @media screen and (min-width: 763px) and (max-width: 1023px) {
