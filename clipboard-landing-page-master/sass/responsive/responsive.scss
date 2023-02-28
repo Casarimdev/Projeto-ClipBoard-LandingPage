@@ -48,7 +48,7 @@
     .middle-site .buttons{
         border-radius: 20px;
         width: 290px;
-        height: 50px;
+        height: auto;
         margin-bottom: 10px;
         overflow-y: hidden;
         overflow-x: hidden;
@@ -121,12 +121,101 @@
             font-size: 11px
         }
     }
+
+    .h1-down1{
+        font-size: 18px;
+        
+    }
+
+
+    .container-advantages{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .logos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h5-midle{
+        font-size: 18px;
+        overflow-y: hidden;
+        margin-bottom: 6vh;
+    }
+
+    .p-midle{
+        font-size: 11px;
+        padding-bottom: 10vh;
+    }
+
+    .blacklist{
+        overflow-x: hidden;
+        
+    }
     
+
+    .logos{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+        .logogoogle,.logoibm,.logomicrosoft,.logohp{
+            padding-bottom: 8vh;
+        }
+    }
+
+    .pdown{
+        font-size: 11px;
+    }
+
+    .middle-site{
+        height: 28vh;
+        padding-top: 4vh;
+    }
+
+    .footer-content{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-content .logo-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    .logo-links{
+        padding-right: 8vh;
+    }
+
+    .footer-content .contact-faq {
+        padding-left: 3rem;
+    }
+
+    .install, .privacy-press{
+        padding-left: 0;
+    }
 
     .container-clipboard{
         height: 70vh;
     }
 
+
+    .socials{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-top: 5vh;
+       
+    }
 }   
 ///RESPONSIVE TABLET
 @media screen and (min-width:763px) and (max-width:1023px){
