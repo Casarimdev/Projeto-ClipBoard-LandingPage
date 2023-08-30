@@ -13,7 +13,7 @@
   align-items: flex-end;
   height: 38vh;
   min-width: 100vw;
-  background-image: url("../../images/bg-header-desktop.png");
+  background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -89,7 +89,7 @@
   font-family: "Bai Jamjuree", sans-serif;
   width: 50vw;
   height: 75vh;
-  background-image: url("../../images/image-computer.png");
+  background-image: url("../images/image-computer.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
