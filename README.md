@@ -1,6 +1,6 @@
 ### Olá, sou Lucas Casarim || Casarim.dev 👋
 
-# Projeto Landing-Page / Acesse : https://casarimdev.github.io/Projeto-ClipBoard-LandingPage/clipboard-landing-page-master/pages/home
+# Projeto Landing-Page / Acesse : https://casarimdev.github.io/Projeto-ClipBoard-LandingPage/pages/home
 
 Projeto de Landing-Page profissional 
 
